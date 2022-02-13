@@ -40,7 +40,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(
   cors({
-    origin: "http://bookshelf-client-six.vercel.app",
+    origin: "https://bookshelf-client-six.vercel.app",
   })
 );
 
