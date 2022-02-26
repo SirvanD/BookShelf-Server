@@ -13,6 +13,4 @@ router.put("/return", userBookController.return_books);
 
 router.get("/details", bookController.book_details_get);
 
-router.post("/bulk_load", bookController.insert_bulk_post);
-
 module.exports = router;

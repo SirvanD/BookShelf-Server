@@ -27,9 +27,3 @@ exports.create_book_post = async function (req, res) {
   const result = await books.donate_book(req.body);
   res.send(result, 201);
 };
-
-//POST bulk upload
-exports.insert_bulk_post = async function (req, res) {
-  const result = await books.create_bulk_books(req.body);
-  res.send(result, 201);
-};
